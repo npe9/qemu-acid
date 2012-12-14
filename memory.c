@@ -419,7 +419,15 @@ static void memory_region_iorange_write(IORange *iorange,
 {
     MemoryRegionIORange *mrio
         = container_of(iorange, MemoryRegionIORange, iorange);
+    if(mrio == NULL){
+        fprintf(stderr, "bad MemoryRegion in memory_region_iorange_write");
+        abort();
+    }
     MemoryRegion *mr = mrio->mr;
+    if(mr == NULL){
+        fprintf(stderr, "bad MemoryRegion in memory_region_iorange_write");
+        abort();
+    }
 
     offset += mrio->offset;
     if (mr->ops->old_portio) {
@@ -1126,6 +1134,10 @@ void memory_region_reset_dirty(MemoryRegion *mr, hwaddr addr,
 
 void *memory_region_get_ram_ptr(MemoryRegion *mr)
 {
+    if (mr == NULL) {
+        fprintf(stderr, "memory_region_get_ram_ptr: MemoryRegion is NULL\n");
+        abort();
+    }
     if (mr->alias) {
         return memory_region_get_ram_ptr(mr->alias) + mr->alias_offset;
     }

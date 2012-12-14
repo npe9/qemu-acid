@@ -20,7 +20,7 @@
 #include "buffered_file.h"
 #include "block.h"
 
-//#define DEBUG_MIGRATION_UNIX
+#define DEBUG_MIGRATION_UNIX
 
 #ifdef DEBUG_MIGRATION_UNIX
 #define DPRINTF(fmt, ...) \

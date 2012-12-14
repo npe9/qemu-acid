@@ -14,7 +14,7 @@
 #include "exec-memory.h"
 #include "ptimer.h"
 
-//#define DEBUG_TIMER
+#define DEBUG_TIMER
 
 #define TIMER_TCR_TPSC          (7 << 0)
 #define TIMER_TCR_CKEG          (3 << 3)

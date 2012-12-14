@@ -31,7 +31,7 @@
 
 #undef DEBUG
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
     #undef PRINT_DEBUG

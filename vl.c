@@ -133,6 +133,7 @@ int main(int argc, char **argv)
 #include "console.h"
 #include "sysemu.h"
 #include "gdbstub.h"
+#include "acidstub.h"
 #include "qemu-timer.h"
 #include "qemu-char.h"
 #include "cache-utils.h"
@@ -170,8 +171,8 @@ int main(int argc, char **argv)
 #include "ui/qemu-spice.h"
 #include "qapi/string-input-visitor.h"
 
-//#define DEBUG_NET
-//#define DEBUG_SLIRP
+#define DEBUG_NET
+#define DEBUG_SLIRP
 
 #define DEFAULT_RAM_SIZE 128
 
@@ -2156,6 +2157,7 @@ struct device_config {
         DEV_VIRTCON,   /* -virtioconsole */
         DEV_DEBUGCON,  /* -debugcon */
         DEV_GDB,       /* -gdb, -s */
+        DEV_ACID,      /* -acid */
     } type;
     const char *cmdline;
     Location loc;
@@ -2958,6 +2960,9 @@ int main(int argc, char **argv, char **envp)
             case QEMU_OPTION_gdb:
                 add_device_config(DEV_GDB, optarg);
                 break;
+            case QEMU_OPTION_acid:
+                add_device_config(DEV_ACID, optarg);
+                break;            
             case QEMU_OPTION_L:
                 data_dir = optarg;
                 break;
@@ -3963,6 +3968,10 @@ int main(int argc, char **argv, char **envp)
     text_consoles_set_display(ds);
 
     if (foreach_device_config(DEV_GDB, gdbserver_start) < 0) {
+        exit(1);
+    }
+
+    if (foreach_device_config(DEV_ACID, acidserver_start) < 0) {
         exit(1);
     }
 

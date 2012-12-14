@@ -14,7 +14,7 @@
 #include "hw/usb/desc.h"
 #include "qemu-char.h"
 
-//#define DEBUG_Serial
+#define DEBUG_Serial
 
 #ifdef DEBUG_Serial
 #define DPRINTF(fmt, ...) \

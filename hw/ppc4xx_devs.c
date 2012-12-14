@@ -27,8 +27,8 @@
 #include "qemu-log.h"
 #include "exec-memory.h"
 
-//#define DEBUG_MMIO
-//#define DEBUG_UNASSIGNED
+#define DEBUG_MMIO
+#define DEBUG_UNASSIGNED
 #define DEBUG_UIC
 
 

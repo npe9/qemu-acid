@@ -35,7 +35,7 @@
 #include <sys/ucontext.h>
 #endif
 
-//#define DEBUG_SIGNAL
+#define DEBUG_SIGNAL
 
 static void exception_action(CPUArchState *env1)
 {

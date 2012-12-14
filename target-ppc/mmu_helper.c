@@ -21,12 +21,12 @@
 #include "kvm.h"
 #include "kvm_ppc.h"
 
-//#define DEBUG_MMU
-//#define DEBUG_BATS
-//#define DEBUG_SLB
-//#define DEBUG_SOFTWARE_TLB
+// #define DEBUG_MMU
+#define DEBUG_BATS
+#define DEBUG_SLB
+#define DEBUG_SOFTWARE_TLB
 //#define DUMP_PAGE_TABLES
-//#define DEBUG_SOFTWARE_TLB
+#define DEBUG_SOFTWARE_TLB
 //#define FLUSH_ALL_TLBS
 
 #ifdef DEBUG_MMU

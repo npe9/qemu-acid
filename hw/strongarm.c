@@ -33,7 +33,7 @@
 #include "sysemu.h"
 #include "ssi.h"
 
-//#define DEBUG
+#define DEBUG
 
 /*
  TODO

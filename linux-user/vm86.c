@@ -25,7 +25,7 @@
 
 #include "qemu.h"
 
-//#define DEBUG_VM86
+#define DEBUG_VM86
 
 #ifdef DEBUG_VM86
 #  define LOG_VM86(...) qemu_log(__VA_ARGS__);

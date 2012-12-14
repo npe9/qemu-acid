@@ -363,6 +363,10 @@ static int apic_irq_pending(APICCommonState *s)
 /* signal the CPU if an irq is pending */
 static void apic_update_irq(APICCommonState *s)
 {
+    if(s == NULL) {
+        fprintf(stderr, "apic state is null\n");
+        abort();
+    }
     CPUState *cpu = CPU(s->cpu);
 
     if (!(s->spurious_vec & APIC_SV_ENABLE)) {

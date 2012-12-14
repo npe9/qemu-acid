@@ -26,7 +26,7 @@
 #include "softmmu_exec.h"
 #endif /* !defined(CONFIG_USER_ONLY) */
 
-//#define DEBUG_OP
+#define DEBUG_OP
 
 /*****************************************************************************/
 /* Memory load and stores */

@@ -32,8 +32,8 @@
 /***********************************************************/
 /* IO Port */
 
-//#define DEBUG_UNUSED_IOPORT
-//#define DEBUG_IOPORT
+#define DEBUG_UNUSED_IOPORT
+#define DEBUG_IOPORT
 
 #ifdef DEBUG_UNUSED_IOPORT
 #  define LOG_UNUSED_IOPORT(fmt, ...) fprintf(stderr, fmt, ## __VA_ARGS__)

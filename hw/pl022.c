@@ -10,7 +10,7 @@
 #include "sysbus.h"
 #include "ssi.h"
 
-//#define DEBUG_PL022 1
+#define DEBUG_PL022 1
 
 #ifdef DEBUG_PL022
 #define DPRINTF(fmt, ...) \

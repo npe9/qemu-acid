@@ -18,7 +18,7 @@
 /* For crc32 */
 #include <zlib.h>
 
-//#define DEBUG_LAN9118
+#define DEBUG_LAN9118
 
 #ifdef DEBUG_LAN9118
 #define DPRINTF(fmt, ...) \

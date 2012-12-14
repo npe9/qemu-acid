@@ -21,7 +21,7 @@
 #include "sysbus.h"
 #include "arm_gic_internal.h"
 
-//#define DEBUG_GIC
+#define DEBUG_GIC
 
 #ifdef DEBUG_GIC
 #define DPRINTF(fmt, ...) \

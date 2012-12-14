@@ -87,9 +87,9 @@
 #include <xfs/xfs.h>
 #endif
 
-//#define DEBUG_FLOPPY
+#define DEBUG_FLOPPY
 
-//#define DEBUG_BLOCK
+#define DEBUG_BLOCK
 #if defined(DEBUG_BLOCK)
 #define DEBUG_BLOCK_PRINT(formatCstr, ...) do { if (qemu_log_enabled()) \
     { qemu_log(formatCstr, ## __VA_ARGS__); qemu_log_flush(); } } while (0)

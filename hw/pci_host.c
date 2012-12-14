@@ -22,7 +22,7 @@
 #include "pci_host.h"
 
 /* debug PCI */
-//#define DEBUG_PCI
+#define DEBUG_PCI
 
 #ifdef DEBUG_PCI
 #define PCI_DPRINTF(fmt, ...) \

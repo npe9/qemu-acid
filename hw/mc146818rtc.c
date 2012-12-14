@@ -31,8 +31,8 @@
 #include "apic.h"
 #endif
 
-//#define DEBUG_CMOS
-//#define DEBUG_COALESCED
+// #define DEBUG_CMOS
+#define DEBUG_COALESCED
 
 #ifdef DEBUG_CMOS
 # define CMOS_DPRINTF(format, ...)      printf(format, ## __VA_ARGS__)

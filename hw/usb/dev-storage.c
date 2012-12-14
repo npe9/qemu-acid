@@ -18,7 +18,7 @@
 #include "sysemu.h"
 #include "blockdev.h"
 
-//#define DEBUG_MSD
+#define DEBUG_MSD
 
 #ifdef DEBUG_MSD
 #define DPRINTF(fmt, ...) \

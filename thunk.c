@@ -23,7 +23,7 @@
 #include "qemu.h"
 #include "thunk.h"
 
-//#define DEBUG
+#define DEBUG
 
 #define MAX_STRUCTS 128
 

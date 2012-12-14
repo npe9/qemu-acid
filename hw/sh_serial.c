@@ -29,7 +29,7 @@
 #include "qemu-char.h"
 #include "exec-memory.h"
 
-//#define DEBUG_SERIAL
+#define DEBUG_SERIAL
 
 #define SH_SERIAL_FLAG_TEND (1 << 0)
 #define SH_SERIAL_FLAG_TDE  (1 << 1)

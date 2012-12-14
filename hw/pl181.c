@@ -11,7 +11,7 @@
 #include "sysbus.h"
 #include "sd.h"
 
-//#define DEBUG_PL181 1
+#define DEBUG_PL181 1
 
 #ifdef DEBUG_PL181
 #define DPRINTF(fmt, ...) \

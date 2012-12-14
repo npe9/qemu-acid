@@ -38,7 +38,7 @@
 #include "pci.h"
 #include "openpic.h"
 
-//#define DEBUG_OPENPIC
+#define DEBUG_OPENPIC
 
 #ifdef DEBUG_OPENPIC
 #define DPRINTF(fmt, ...) do { printf(fmt , ## __VA_ARGS__); } while (0)

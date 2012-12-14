@@ -26,7 +26,7 @@
 #include "qemu-timer.h"
 #include "qmp-commands.h"
 
-//#define DEBUG_CONSOLE
+#define DEBUG_CONSOLE
 #define DEFAULT_BACKSCROLL 512
 #define MAX_CONSOLES 12
 #define CONSOLE_CURSOR_PERIOD 500

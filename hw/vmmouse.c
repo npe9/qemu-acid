@@ -28,7 +28,7 @@
 #include "qdev.h"
 
 /* debug only vmmouse */
-//#define DEBUG_VMMOUSE
+#define DEBUG_VMMOUSE
 
 /* VMMouse Commands */
 #define VMMOUSE_GETVERSION	10

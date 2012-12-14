@@ -26,7 +26,7 @@
 #include "ppc_mac.h"
 
 /* debug PIC */
-//#define DEBUG_PIC
+#define DEBUG_PIC
 
 #ifdef DEBUG_PIC
 #define PIC_DPRINTF(fmt, ...)                                   \

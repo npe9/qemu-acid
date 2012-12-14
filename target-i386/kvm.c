@@ -33,7 +33,7 @@
 #include "hyperv.h"
 #include "hw/pci.h"
 
-//#define DEBUG_KVM
+#define DEBUG_KVM
 
 #ifdef DEBUG_KVM
 #define DPRINTF(fmt, ...) \

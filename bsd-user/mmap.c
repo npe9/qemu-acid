@@ -28,7 +28,7 @@
 #include "qemu-common.h"
 #include "bsd-mman.h"
 
-//#define DEBUG_MMAP
+#define DEBUG_MMAP
 
 #if defined(CONFIG_USE_NPTL)
 pthread_mutex_t mmap_mutex;

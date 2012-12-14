@@ -41,9 +41,9 @@
 #include "blockdev.h"
 #include "exec-memory.h"
 
-//#define DEBUG_IRQ
-//#define DEBUG_EBUS
-//#define DEBUG_TIMER
+#define DEBUG_IRQ
+#define DEBUG_EBUS
+#define DEBUG_TIMER
 
 #ifdef DEBUG_IRQ
 #define CPUIRQ_DPRINTF(fmt, ...)                                \

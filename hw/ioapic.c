@@ -26,7 +26,7 @@
 #include "ioapic.h"
 #include "ioapic_internal.h"
 
-//#define DEBUG_IOAPIC
+// #define DEBUG_IOAPIC
 
 #ifdef DEBUG_IOAPIC
 #define DPRINTF(fmt, ...)                                       \

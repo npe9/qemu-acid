@@ -41,7 +41,7 @@
 #include "mac_dbdma.h"
 
 /* debug DBDMA */
-//#define DEBUG_DBDMA
+#define DEBUG_DBDMA
 
 #ifdef DEBUG_DBDMA
 #define DBDMA_DPRINTF(fmt, ...)                                 \

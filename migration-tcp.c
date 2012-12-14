@@ -20,7 +20,7 @@
 #include "buffered_file.h"
 #include "block.h"
 
-//#define DEBUG_MIGRATION_TCP
+#define DEBUG_MIGRATION_TCP
 
 #ifdef DEBUG_MIGRATION_TCP
 #define DPRINTF(fmt, ...) \

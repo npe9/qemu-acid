@@ -37,7 +37,7 @@
 #include "hw/spapr.h"
 #include "hw/spapr_vio.h"
 
-//#define DEBUG_KVM
+#define DEBUG_KVM
 
 #ifdef DEBUG_KVM
 #define dprintf(fmt, ...) \

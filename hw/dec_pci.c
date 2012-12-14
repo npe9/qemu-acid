@@ -31,7 +31,7 @@
 #include "pci_internals.h"
 
 /* debug DEC */
-//#define DEBUG_DEC
+#define DEBUG_DEC
 
 #ifdef DEBUG_DEC
 #define DEC_DPRINTF(fmt, ...)                               \

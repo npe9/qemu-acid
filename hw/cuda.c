@@ -31,10 +31,10 @@
 /* XXX: implement all timer modes */
 
 /* debug CUDA */
-//#define DEBUG_CUDA
+#define DEBUG_CUDA
 
 /* debug CUDA packets */
-//#define DEBUG_CUDA_PACKET
+#define DEBUG_CUDA_PACKET
 
 #ifdef DEBUG_CUDA
 #define CUDA_DPRINTF(fmt, ...)                                  \

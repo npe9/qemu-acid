@@ -29,7 +29,7 @@
 #include "i8259_internal.h"
 
 /* debug PIC */
-//#define DEBUG_PIC
+// #define DEBUG_PIC
 
 #ifdef DEBUG_PIC
 #define DPRINTF(fmt, ...)                                       \
@@ -38,8 +38,8 @@
 #define DPRINTF(fmt, ...)
 #endif
 
-//#define DEBUG_IRQ_LATENCY
-//#define DEBUG_IRQ_COUNT
+#define DEBUG_IRQ_LATENCY
+#define DEBUG_IRQ_COUNT
 
 #if defined(DEBUG_PIC) || defined(DEBUG_IRQ_COUNT)
 static int irq_level[16];

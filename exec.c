@@ -62,15 +62,15 @@
 
 #include "memory-internal.h"
 
-//#define DEBUG_TB_INVALIDATE
-//#define DEBUG_FLUSH
-//#define DEBUG_UNASSIGNED
+#define DEBUG_TB_INVALIDATE
+// #define DEBUG_FLUSH
+// #define DEBUG_UNASSIGNED
 
 /* make various TB consistency checks */
-//#define DEBUG_TB_CHECK
+#define DEBUG_TB_CHECK
 
-//#define DEBUG_IOPORT
-//#define DEBUG_SUBPAGE
+#define DEBUG_IOPORT
+// #define DEBUG_SUBPAGE
 
 #if !defined(CONFIG_USER_ONLY)
 /* TB consistency checks only implemented for usermode emulation.  */
@@ -3117,8 +3117,8 @@ static int subpage_register (subpage_t *mmio, uint32_t start, uint32_t end,
     idx = SUBPAGE_IDX(start);
     eidx = SUBPAGE_IDX(end);
 #if defined(DEBUG_SUBPAGE)
-    printf("%s: %p start %08x end %08x idx %08x eidx %08x mem %ld\n", __func__,
-           mmio, start, end, idx, eidx, memory);
+    printf("%s: %p start %08x end %08x idx %08x eidx %08x\n", __func__,
+           mmio, start, end, idx, eidx);
 #endif
     if (memory_region_is_ram(phys_sections[section].mr)) {
         MemoryRegionSection new_section = phys_sections[section];
@@ -3143,8 +3143,8 @@ static subpage_t *subpage_init(hwaddr base)
                           "subpage", TARGET_PAGE_SIZE);
     mmio->iomem.subpage = true;
 #if defined(DEBUG_SUBPAGE)
-    printf("%s: %p base " TARGET_FMT_plx " len %08x %d\n", __func__,
-           mmio, base, TARGET_PAGE_SIZE, subpage_memory);
+    printf("%s: %p base " TARGET_FMT_plx " len %08x\n", __func__,
+           mmio, base, TARGET_PAGE_SIZE);
 #endif
     subpage_register(mmio, 0, TARGET_PAGE_SIZE-1, phys_section_unassigned);
 

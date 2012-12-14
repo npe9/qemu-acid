@@ -25,7 +25,7 @@
 #include <xen/hvm/params.h>
 #include <xen/hvm/e820.h>
 
-//#define DEBUG_XEN
+#define DEBUG_XEN
 
 #ifdef DEBUG_XEN
 #define DPRINTF(fmt, ...) \

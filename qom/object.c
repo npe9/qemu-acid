@@ -443,6 +443,10 @@ ObjectClass *object_class_dynamic_cast(ObjectClass *class,
                                        const char *typename)
 {
     TypeImpl *target_type = type_get_by_name(typename);
+    if(class == NULL) {
+        fprintf(stderr, "Class is null\n");
+        abort();
+    }
     TypeImpl *type = class->type;
     ObjectClass *ret = NULL;
 

@@ -31,7 +31,7 @@
 
 #define MAX_IS_ALLOCATED_SEARCH 65536
 
-//#define DEBUG_BLK_MIGRATION
+#define DEBUG_BLK_MIGRATION
 
 #ifdef DEBUG_BLK_MIGRATION
 #define DPRINTF(fmt, ...) \

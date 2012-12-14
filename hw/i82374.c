@@ -24,7 +24,7 @@
 
 #include "isa.h"
 
-//#define DEBUG_I82374
+#define DEBUG_I82374
 
 #ifdef DEBUG_I82374
 #define DPRINTF(fmt, ...) \

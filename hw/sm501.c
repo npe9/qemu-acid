@@ -45,8 +45,8 @@
  *   - Performance tuning
  */
 
-//#define DEBUG_SM501
-//#define DEBUG_BITBLT
+#define DEBUG_SM501
+#define DEBUG_BITBLT
 
 #ifdef DEBUG_SM501
 #define SM501_DPRINTF(fmt, ...) printf(fmt, ## __VA_ARGS__)

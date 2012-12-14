@@ -25,7 +25,7 @@
 #include "devices.h"
 #include "sysemu.h"
 
-//#define DEBUG
+#define DEBUG
 
 typedef struct {
     void *opaque;

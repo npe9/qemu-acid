@@ -17,8 +17,8 @@
 #include "scsi.h"
 #include "dma.h"
 
-//#define DEBUG_LSI
-//#define DEBUG_LSI_REG
+#define DEBUG_LSI
+#define DEBUG_LSI_REG
 
 #ifdef DEBUG_LSI
 #define DPRINTF(fmt, ...) \

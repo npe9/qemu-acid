@@ -13,7 +13,7 @@
 #include "sysbus.h"
 #include "empty_slot.h"
 
-//#define DEBUG_EMPTY_SLOT
+#define DEBUG_EMPTY_SLOT
 
 #ifdef DEBUG_EMPTY_SLOT
 #define DPRINTF(fmt, ...)                                       \

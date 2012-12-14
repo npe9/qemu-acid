@@ -29,8 +29,8 @@
 /********************************************************/
 /* debug rc4030 */
 
-//#define DEBUG_RC4030
-//#define DEBUG_RC4030_DMA
+#define DEBUG_RC4030
+#define DEBUG_RC4030_DMA
 
 #ifdef DEBUG_RC4030
 #define DPRINTF(fmt, ...) \

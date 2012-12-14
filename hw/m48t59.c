@@ -29,7 +29,7 @@
 #include "isa.h"
 #include "exec-memory.h"
 
-//#define DEBUG_NVRAM
+#define DEBUG_NVRAM
 
 #if defined(DEBUG_NVRAM)
 #define NVRAM_PRINTF(fmt, ...) do { printf(fmt , ## __VA_ARGS__); } while (0)

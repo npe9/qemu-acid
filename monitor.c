@@ -74,8 +74,8 @@
 #endif
 #include "hw/lm32_pic.h"
 
-//#define DEBUG
-//#define DEBUG_COMPLETION
+#define DEBUG
+#define DEBUG_COMPLETION
 
 /*
  * Supported types:

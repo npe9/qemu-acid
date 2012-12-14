@@ -47,7 +47,7 @@
 #include "sysemu.h"
 #include "exec-memory.h"
 
-//#define DEBUG_BONITO
+#define DEBUG_BONITO
 
 #ifdef DEBUG_BONITO
 #define DPRINTF(fmt, ...) fprintf(stderr, "%s: " fmt, __FUNCTION__, ##__VA_ARGS__)

@@ -32,7 +32,7 @@
 #define SMBHSTDAT1      0x06
 #define SMBBLKDAT       0x07
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 # define SMBUS_DPRINTF(format, ...)     printf(format, ## __VA_ARGS__)

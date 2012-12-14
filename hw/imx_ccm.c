@@ -19,7 +19,7 @@
 #define CKIL_FREQ    32768 /* nominal 32khz clock */
 
 
-//#define DEBUG_CCM 1
+#define DEBUG_CCM 1
 #ifdef DEBUG_CCM
 #define DPRINTF(fmt, args...) \
 do { printf("imx_ccm: " fmt , ##args); } while (0)

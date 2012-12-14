@@ -72,7 +72,7 @@
 #define CFG_ADDR 0xf0000510
 
 /* debug UniNorth */
-//#define DEBUG_UNIN
+#define DEBUG_UNIN
 
 #ifdef DEBUG_UNIN
 #define UNIN_DPRINTF(fmt, ...)                                  \

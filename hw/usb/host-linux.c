@@ -59,7 +59,7 @@ typedef int USBScanFunc(void *opaque, int bus_num, int addr, const char *port,
                         int class_id, int vendor_id, int product_id,
                         const char *product_name, int speed);
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 #define DPRINTF printf

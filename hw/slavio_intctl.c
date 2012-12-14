@@ -27,7 +27,7 @@
 #include "sysbus.h"
 #include "trace.h"
 
-//#define DEBUG_IRQ_COUNT
+#define DEBUG_IRQ_COUNT
 
 /*
  * Registers of interrupt controller in sun4m.

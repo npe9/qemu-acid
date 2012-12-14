@@ -110,7 +110,7 @@ int __clone2(int (*fn)(void *), void *child_stack_base,
 #define CLONE_NPTL_FLAGS2 0
 #endif
 
-//#define DEBUG
+#define DEBUG
 
 //#include <linux/msdos_fs.h>
 #define	VFAT_IOCTL_READDIR_BOTH		_IOR('r', 1, struct linux_dirent [2])
@@ -766,7 +766,7 @@ void target_set_brk(abi_ulong new_brk)
     brk_page = HOST_PAGE_ALIGN(target_brk);
 }
 
-//#define DEBUGF_BRK(message, args...) do { fprintf(stderr, (message), ## args); } while (0)
+#define DEBUGF_BRK(message, args...) do { fprintf(stderr, (message), ## args); } while (0)
 #define DEBUGF_BRK(message, args...)
 
 /* do_brk() must return target values and target errnos. */

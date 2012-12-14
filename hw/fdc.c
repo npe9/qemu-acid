@@ -40,7 +40,7 @@
 
 /********************************************************/
 /* debug Floppy devices */
-//#define DEBUG_FLOPPY
+#define DEBUG_FLOPPY
 
 #ifdef DEBUG_FLOPPY
 #define FLOPPY_DPRINTF(fmt, ...)                                \

@@ -27,8 +27,8 @@
 #include "monitor.h"
 #include "sysbus.h"
 
-//#define DEBUG_IRQ_COUNT
-//#define DEBUG_IRQ
+#define DEBUG_IRQ_COUNT
+#define DEBUG_IRQ
 
 #ifdef DEBUG_IRQ
 #define DPRINTF(fmt, ...)                                       \

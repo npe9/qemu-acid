@@ -27,7 +27,7 @@
 #define GEN_HELPER 1
 #include "helpers.h"
 
-//#define DEBUG_DISPATCH 1
+#define DEBUG_DISPATCH 1
 
 /* Fake floating point.  */
 #define tcg_gen_mov_f64 tcg_gen_mov_i64

@@ -28,7 +28,7 @@
 #include "ppc_mac.h"
 
 /* debug NVR */
-//#define DEBUG_NVR
+#define DEBUG_NVR
 
 #ifdef DEBUG_NVR
 #define NVR_DPRINTF(fmt, ...)                                   \

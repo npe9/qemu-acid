@@ -28,7 +28,7 @@
 #include "pci_internals.h"
 #include "pcie_regs.h"
 
-//#define DEBUG_PCIE
+#define DEBUG_PCIE
 #ifdef DEBUG_PCIE
 # define PCIE_DPRINTF(fmt, ...)                                         \
     fprintf(stderr, "%s:%d " fmt, __func__, __LINE__, ## __VA_ARGS__)

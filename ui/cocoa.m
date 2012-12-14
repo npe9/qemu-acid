@@ -37,7 +37,7 @@
 #endif
 
 
-//#define DEBUG
+// #define DEBUG
 
 #ifdef DEBUG
 #define COCOA_DEBUG(...)  { (void) fprintf (stdout, __VA_ARGS__); }

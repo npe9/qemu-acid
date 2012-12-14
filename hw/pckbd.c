@@ -28,7 +28,7 @@
 #include "sysemu.h"
 
 /* debug PC keyboard */
-//#define DEBUG_KBD
+// #define DEBUG_KBD
 #ifdef DEBUG_KBD
 #define DPRINTF(fmt, ...)                                       \
     do { printf("KBD: " fmt , ## __VA_ARGS__); } while (0)

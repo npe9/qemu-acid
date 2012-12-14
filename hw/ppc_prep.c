@@ -42,7 +42,7 @@
 #include "exec-memory.h"
 
 //#define HARD_DEBUG_PPC_IO
-//#define DEBUG_PPC_IO
+#define DEBUG_PPC_IO
 
 /* SMP is not enabled, for now */
 #define MAX_CPUS 1

@@ -24,7 +24,7 @@
 #include "monitor.h"
 #endif
 
-//#define DEBUG_MMU
+#define DEBUG_MMU
 
 static void cpu_x86_version(CPUX86State *env, int *family, int *model)
 {

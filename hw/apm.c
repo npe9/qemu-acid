@@ -23,7 +23,7 @@
 #include "apm.h"
 #include "hw.h"
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 # define APM_DPRINTF(format, ...)       printf(format, ## __VA_ARGS__)

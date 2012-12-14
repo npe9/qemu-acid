@@ -12,8 +12,8 @@
 #include "hw.h"
 #include "sh.h"
 
-//#define DEBUG_INTC
-//#define DEBUG_INTC_SOURCES
+#define DEBUG_INTC
+#define DEBUG_INTC_SOURCES
 
 #define INTC_A7(x) ((x) & 0x1fffffff)
 

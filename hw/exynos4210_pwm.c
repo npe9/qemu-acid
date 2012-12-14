@@ -27,7 +27,7 @@
 
 #include "exynos4210.h"
 
-//#define DEBUG_PWM
+#define DEBUG_PWM
 
 #ifdef DEBUG_PWM
 #define DPRINTF(fmt, ...) \

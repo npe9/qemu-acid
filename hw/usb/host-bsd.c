@@ -44,7 +44,7 @@
  * You should also set hw.usb.debug to gain
  * more detailed view.
  */
-//#define DEBUG
+#define DEBUG
 #define UGEN_DEBUG_LEVEL 0
 
 

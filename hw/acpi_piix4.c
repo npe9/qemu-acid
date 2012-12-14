@@ -29,7 +29,7 @@
 #include "ioport.h"
 #include "fw_cfg.h"
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 # define PIIX4_DPRINTF(format, ...)     printf(format, ## __VA_ARGS__)

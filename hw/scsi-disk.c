@@ -19,7 +19,7 @@
  * the host adapter emulator.
  */
 
-//#define DEBUG_SCSI
+#define DEBUG_SCSI
 
 #ifdef DEBUG_SCSI
 #define DPRINTF(fmt, ...) \

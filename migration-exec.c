@@ -24,7 +24,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-//#define DEBUG_MIGRATION_EXEC
+#define DEBUG_MIGRATION_EXEC
 
 #ifdef DEBUG_MIGRATION_EXEC
 #define DPRINTF(fmt, ...) \

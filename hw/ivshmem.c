@@ -36,7 +36,7 @@
 
 #define IVSHMEM_REG_BAR_SIZE 0x100
 
-//#define DEBUG_IVSHMEM
+#define DEBUG_IVSHMEM
 #ifdef DEBUG_IVSHMEM
 #define IVSHMEM_DPRINTF(fmt, ...)        \
     do {printf("IVSHMEM: " fmt, ## __VA_ARGS__); } while (0)

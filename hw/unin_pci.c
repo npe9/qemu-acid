@@ -27,7 +27,7 @@
 #include "pci_host.h"
 
 /* debug UniNorth */
-//#define DEBUG_UNIN
+#define DEBUG_UNIN
 
 #ifdef DEBUG_UNIN
 #define UNIN_DPRINTF(fmt, ...)                                  \

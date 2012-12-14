@@ -19,7 +19,7 @@
 #include "qemu-char.h"
 #include "buffered_file.h"
 
-//#define DEBUG_BUFFERED_FILE
+#define DEBUG_BUFFERED_FILE
 
 typedef struct QEMUFileBuffered
 {
@@ -113,7 +113,7 @@ static int buffered_put_buffer(void *opaque, const uint8_t *buf, int64_t pos, in
     s->freeze_output = 0;
 
     if (size > 0) {
-        DPRINTF("buffering %d bytes\n", size - offset);
+        DPRINTF("buffering %d bytes\n", size);
         buffered_append(s, buf, size);
     }
 

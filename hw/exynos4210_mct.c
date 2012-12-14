@@ -59,7 +59,7 @@
 
 #include "exynos4210.h"
 
-//#define DEBUG_MCT
+#define DEBUG_MCT
 
 #ifdef DEBUG_MCT
 #define DPRINTF(fmt, ...) \

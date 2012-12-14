@@ -27,7 +27,7 @@
 #include <stdint.h>
 #include "host-utils.h"
 
-//#define DEBUG_MULDIV
+#define DEBUG_MULDIV
 
 /* Long integer helpers */
 #if !defined(__x86_64__)

@@ -37,7 +37,7 @@
 
 #include <xenguest.h>
 
-//#define DEBUG_PLATFORM
+#define DEBUG_PLATFORM
 
 #ifdef DEBUG_PLATFORM
 #define DPRINTF(fmt, ...) do { \

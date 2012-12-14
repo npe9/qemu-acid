@@ -33,10 +33,10 @@
 #include "hw/sysbus.h"
 #include "hw/qdev-dma.h"
 
-//#define DEBUG_OHCI
+#define DEBUG_OHCI
 /* Dump packet contents.  */
-//#define DEBUG_PACKET
-//#define DEBUG_ISOCH
+#define DEBUG_PACKET
+#define DEBUG_ISOCH
 /* This causes frames to occur 1000x slower */
 //#define OHCI_TIME_WARP 1
 

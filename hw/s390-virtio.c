@@ -34,7 +34,7 @@
 #include "hw/s390-virtio-bus.h"
 #include "hw/s390x/sclp.h"
 
-//#define DEBUG_S390
+#define DEBUG_S390
 
 #ifdef DEBUG_S390
 #define dprintf(fmt, ...) \

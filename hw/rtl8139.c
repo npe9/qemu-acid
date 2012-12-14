@@ -61,7 +61,7 @@
 #include "iov.h"
 
 /* debug RTL8139 card */
-//#define DEBUG_RTL8139 1
+#define DEBUG_RTL8139 1
 
 #define PCI_FREQUENCY 33000000L
 

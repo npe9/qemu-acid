@@ -49,7 +49,7 @@
 #include "exec-memory.h"
 #include "sysbus.h"             /* SysBusDevice */
 
-//#define DEBUG_BOARD_INIT
+#define DEBUG_BOARD_INIT
 
 #define ENVP_ADDR		0x80002000l
 #define ENVP_NB_ENTRIES	 	16

@@ -12,7 +12,7 @@
 #include <zlib.h>
 #include "exec-memory.h"
 
-//#define DEBUG_FEC 1
+#define DEBUG_FEC 1
 
 #ifdef DEBUG_FEC
 #define DPRINTF(fmt, ...) \

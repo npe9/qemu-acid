@@ -30,7 +30,7 @@
 #include "sysemu.h"
 
 /* Show multiboot debug output */
-//#define DEBUG_MULTIBOOT
+#define DEBUG_MULTIBOOT
 
 #ifdef DEBUG_MULTIBOOT
 #define mb_debug(a...) fprintf(stderr, ## a)
@@ -140,6 +140,8 @@ int load_multiboot(void *fw_cfg,
     MultibootState mbs;
     uint8_t bootinfo[MBI_SIZE];
     uint8_t *mb_bootinfo_data;
+
+    mb_debug("qemu: trying multiboot\n");
 
     /* Ok, let's see if it is a multiboot image.
        The header is 12x32bit long, so the latest entry may be 8192 - 48. */

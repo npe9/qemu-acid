@@ -27,7 +27,7 @@
 
 typedef uint32_t pci_addr_t;
 #include "pci_host.h"
-//#define DEBUG_VT82C686B
+#define DEBUG_VT82C686B
 
 #ifdef DEBUG_VT82C686B
 #define DPRINTF(fmt, ...) fprintf(stderr, "%s: " fmt, __FUNCTION__, ##__VA_ARGS__)

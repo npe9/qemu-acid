@@ -27,8 +27,8 @@
 
 #include "memory-internal.h"
 
-//#define DEBUG_TLB
-//#define DEBUG_TLB_CHECK
+// #define DEBUG_TLB
+// #define DEBUG_TLB_CHECK
 
 /* statistics */
 int tlb_flush_count;
@@ -255,8 +255,8 @@ void tlb_set_page(CPUArchState *env, target_ulong vaddr,
     section = phys_page_find(address_space_memory.dispatch, paddr >> TARGET_PAGE_BITS);
 #if defined(DEBUG_TLB)
     printf("tlb_set_page: vaddr=" TARGET_FMT_lx " paddr=0x" TARGET_FMT_plx
-           " prot=%x idx=%d pd=0x%08lx\n",
-           vaddr, paddr, prot, mmu_idx, pd);
+           " prot=%x idx=%d\n",
+           vaddr, paddr, prot, mmu_idx);
 #endif
 
     address = vaddr;

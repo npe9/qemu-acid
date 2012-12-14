@@ -31,7 +31,7 @@
 
 #include "exynos4210.h"
 
-//#define DEBUG_COMBINER
+#define DEBUG_COMBINER
 
 #ifdef DEBUG_COMBINER
 #define DPRINTF(fmt, ...) \

@@ -22,7 +22,7 @@
 #include "qemu-log.h"
 #include "helper.h"
 
-//#define DEBUG_PCALL
+#define DEBUG_PCALL
 
 #if !defined(CONFIG_USER_ONLY)
 #include "softmmu_exec.h"

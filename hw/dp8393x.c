@@ -22,7 +22,7 @@
 #include "net.h"
 #include "mips.h"
 
-//#define DEBUG_SONIC
+#define DEBUG_SONIC
 
 /* Calculate CRCs properly on Rx packets */
 #define SONIC_CALCULATE_RXCRC

@@ -36,7 +36,7 @@
 #include "exec-memory.h"
 
 /* debug APB */
-//#define DEBUG_APB
+#define DEBUG_APB
 
 #ifdef DEBUG_APB
 #define APB_DPRINTF(fmt, ...) \

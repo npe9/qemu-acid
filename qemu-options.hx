@@ -2448,6 +2448,15 @@ within gdb and establish the connection via a pipe:
 @end example
 ETEXI
 
+DEF("acid", HAS_ARG, QEMU_OPTION_acid, \
+    "-acid dev        wait for acid connection on 'dev'\n", QEMU_ARCH_ALL)
+STEXI
+@item -acid @var{dev}
+@findex -acid
+Wait for acid connection on device @var{dev} (@pxref{acid_usage}). Connections pseudo TTY, or
+stdio for now. When remote network debugging is added to acid, TCP will be added later.
+ETEXI
+
 DEF("s", 0, QEMU_OPTION_s, \
     "-s              shorthand for -gdb tcp::" DEFAULT_GDBSTUB_PORT "\n",
     QEMU_ARCH_ALL)

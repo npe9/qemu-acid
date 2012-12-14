@@ -14,7 +14,7 @@
 #include "ssi.h"
 #include "sd.h"
 
-//#define DEBUG_SSI_SD 1
+#define DEBUG_SSI_SD 1
 
 #ifdef DEBUG_SSI_SD
 #define DPRINTF(fmt, ...) \

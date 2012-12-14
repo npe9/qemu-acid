@@ -29,7 +29,7 @@
 #include "isa.h"
 #include "pc.h"
 
-//#define DEBUG_DEBUGCON
+// #define DEBUG_DEBUGCON
 
 typedef struct DebugconState {
     CharDriverState *chr;

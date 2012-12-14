@@ -28,7 +28,7 @@
 #include "i8254.h"
 #include "i8254_internal.h"
 
-//#define DEBUG_PIT
+// #define DEBUG_PIT
 
 #define RW_STATE_LSB 1
 #define RW_STATE_MSB 2

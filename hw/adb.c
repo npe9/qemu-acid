@@ -26,7 +26,7 @@
 #include "console.h"
 
 /* debug ADB */
-//#define DEBUG_ADB
+#define DEBUG_ADB
 
 #ifdef DEBUG_ADB
 #define ADB_DPRINTF(fmt, ...) \

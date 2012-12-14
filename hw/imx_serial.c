@@ -23,7 +23,7 @@
 #include "qemu-char.h"
 #include "imx.h"
 
-//#define DEBUG_SERIAL 1
+#define DEBUG_SERIAL 1
 #ifdef DEBUG_SERIAL
 #define DPRINTF(fmt, args...) \
 do { printf("imx_serial: " fmt , ##args); } while (0)
@@ -35,7 +35,7 @@ do { printf("imx_serial: " fmt , ##args); } while (0)
  * Define to 1 for messages about attempts to
  * access unimplemented registers or similar.
  */
-//#define DEBUG_IMPLEMENTATION 1
+#define DEBUG_IMPLEMENTATION 1
 #ifdef DEBUG_IMPLEMENTATION
 #  define IPRINTF(fmt, args...) \
     do  { fprintf(stderr, "imx_serial: " fmt, ##args); } while (0)

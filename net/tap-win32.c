@@ -74,7 +74,7 @@
 // Compile time configuration
 //======================
 
-//#define DEBUG_TAP_WIN32
+#define DEBUG_TAP_WIN32
 
 #define TUN_ASYNCHRONOUS_WRITES 1
 

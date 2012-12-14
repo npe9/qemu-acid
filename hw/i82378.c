@@ -22,7 +22,7 @@
 #include "i8254.h"
 #include "pcspk.h"
 
-//#define DEBUG_I82378
+#define DEBUG_I82378
 
 #ifdef DEBUG_I82378
 #define DPRINTF(fmt, ...) \

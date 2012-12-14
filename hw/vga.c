@@ -32,11 +32,11 @@
 #include "xen.h"
 #include "trace.h"
 
-//#define DEBUG_VGA
-//#define DEBUG_VGA_MEM
-//#define DEBUG_VGA_REG
+// #define DEBUG_VGA
+// #define DEBUG_VGA_MEM
+// #define DEBUG_VGA_REG
 
-//#define DEBUG_BOCHS_VBE
+#define DEBUG_BOCHS_VBE
 
 /* 16 state changes per vertical frame @60 Hz */
 #define VGA_TEXT_CURSOR_PERIOD_MS       (1000 * 2 * 16 / 60)

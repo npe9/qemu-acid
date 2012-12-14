@@ -27,7 +27,7 @@
 #include "pcie_regs.h"
 #include "range.h"
 
-//#define DEBUG_PCIE
+#define DEBUG_PCIE
 #ifdef DEBUG_PCIE
 # define PCIE_DPRINTF(fmt, ...)                                         \
     fprintf(stderr, "%s:%d " fmt, __func__, __LINE__, ## __VA_ARGS__)

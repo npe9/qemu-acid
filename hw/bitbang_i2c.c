@@ -13,7 +13,7 @@
 #include "bitbang_i2c.h"
 #include "sysbus.h"
 
-//#define DEBUG_BITBANG_I2C
+#define DEBUG_BITBANG_I2C
 
 #ifdef DEBUG_BITBANG_I2C
 #define DPRINTF(fmt, ...) \

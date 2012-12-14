@@ -13,7 +13,7 @@
 #include "i2c.h"
 #include "smbus.h"
 
-//#define DEBUG_SMBUS 1
+#define DEBUG_SMBUS 1
 
 #ifdef DEBUG_SMBUS
 #define DPRINTF(fmt, ...) \

@@ -25,9 +25,9 @@
 #include "sysemu.h"
 #endif
 
-//#define DEBUG_S390
-//#define DEBUG_S390_PTE
-//#define DEBUG_S390_STDOUT
+#define DEBUG_S390
+#define DEBUG_S390_PTE
+#define DEBUG_S390_STDOUT
 
 #ifdef DEBUG_S390
 #ifdef DEBUG_S390_STDOUT

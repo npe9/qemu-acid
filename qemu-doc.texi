@@ -167,6 +167,7 @@ TODO (no longer available)
 * pcsys_usb::          USB emulation
 * vnc_security::       VNC security
 * gdb_usage::          GDB usage
+* acid_usage::          GDB usage
 * pcsys_os_specific::  Target OS specific information
 @end menu
 
@@ -1507,6 +1508,11 @@ sending: "qemu.sstep=0x5"
 received: "OK"
 @end example
 @end table
+
+@node acid_usage
+@section Acid usage
+QEMU supports acid's remote debugging protocol which usually presents a Plan 9 or Inferno kernel as a running process.
+
 
 @node pcsys_os_specific
 @section Target OS specific information

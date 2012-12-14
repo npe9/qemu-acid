@@ -18,7 +18,7 @@
 
 #ifdef __linux__
 
-//#define DEBUG_SCSI
+#define DEBUG_SCSI
 
 #ifdef DEBUG_SCSI
 #define DPRINTF(fmt, ...) \

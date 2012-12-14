@@ -26,7 +26,7 @@
 #include <curl/curl.h>
 
 // #define DEBUG
-// #define DEBUG_VERBOSE
+#define DEBUG_VERBOSE
 
 #ifdef DEBUG_CURL
 #define DPRINTF(fmt, ...) do { printf(fmt, ## __VA_ARGS__); } while (0)

@@ -17,7 +17,7 @@
 #include "sysbus.h"
 #include "imx.h"
 
-//#define DEBUG_TIMER 1
+#define DEBUG_TIMER 1
 #ifdef DEBUG_TIMER
 #  define DPRINTF(fmt, args...) \
       do { printf("imx_timer: " fmt , ##args); } while (0)

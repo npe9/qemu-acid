@@ -22,7 +22,7 @@
 #include "block.h"
 #include "qemu_socket.h"
 
-//#define DEBUG_MIGRATION_FD
+#define DEBUG_MIGRATION_FD
 
 #ifdef DEBUG_MIGRATION_FD
 #define DPRINTF(fmt, ...) \

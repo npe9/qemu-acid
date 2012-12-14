@@ -39,8 +39,8 @@
  *    - optimize bitblt functions
  */
 
-//#define DEBUG_CIRRUS
-//#define DEBUG_BITBLT
+#define DEBUG_CIRRUS
+#define DEBUG_BITBLT
 
 /***************************************
  *

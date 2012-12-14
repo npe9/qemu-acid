@@ -27,7 +27,7 @@
 #include "audio/audio.h"
 #include "isa.h"
 
-//#define DEBUG
+#define DEBUG
 
 #define ADLIB_KILL_TIMERS 1
 

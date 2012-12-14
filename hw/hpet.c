@@ -666,7 +666,10 @@ static void hpet_reset(DeviceState *d)
 static void hpet_handle_legacy_irq(void *opaque, int n, int level)
 {
     HPETState *s = FROM_SYSBUS(HPETState, opaque);
-
+    if (s == NULL) {
+        fprintf(stderr, "HPETState is null\n");
+        abort();
+    }
     if (n == HPET_LEGACY_PIT_INT) {
         if (!hpet_in_legacy_mode(s)) {
             qemu_set_irq(s->irqs[0], level);

@@ -28,7 +28,7 @@
 #include "pci.h"
 
 /* debug Grackle */
-//#define DEBUG_GRACKLE
+#define DEBUG_GRACKLE
 
 #ifdef DEBUG_GRACKLE
 #define GRACKLE_DPRINTF(fmt, ...)                               \
